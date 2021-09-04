@@ -24,7 +24,6 @@
     </header>
     <main>
         <section class="part1">
-            <img src="./images/IUM_HERO.png" alt="">
             <div class="form">
 
             </div>
@@ -33,6 +32,49 @@
                 <p>
                     The International University of Monaco (Licensed &recognized by the Government of the Principality of Monaco and Accredited by AMBA & AACSB) offers outstanding teaching in its small, connected, stimulating, cross-cultural environment fostering an entrepreneurial spirit, collaborative work, experiential learning and mutual understanding among students, faculty and staff.
                 </p>
+            </div>
+            <div class="form">
+                <form>
+                    <h2>Ask for program brochure</h2>
+                    <label for="genre_select">Title (Mr. ou Ms.)</label>
+                    <select name="genre" id="genre_select">
+                        <option value="">Select</option>
+                        <option value="mr">Mr.</option>
+                        <option value="ms">Ms.</option>
+                    </select>
+                    <label for="first_name" >First name <span>*</span></label>
+                    <input type="text" id="first_name" name="first_name" required>
+                    <label for="last_name">Last name <span>*</span></label>
+                    <input type="text" id="last_name" name="last_name" required>
+                    <label for="mail">Email <span>*</span></label>
+                    <input type="text" id="mail" name="mail" required>
+                    <label for="country_select">Country <span>*</span></label>
+                    <select name="country" id="country_select" required>
+                        <option value="">Select</option>
+                        <!-- ... -->
+                    </select>
+                    <label for="program_select">Desired program <span>*</span></label>
+                    <select name="program" id="program_select" required>
+                        <option value="">Select</option>
+                        <!-- ... -->
+                    </select>
+                    <label for="mobile">Mobile</label>
+                    <input type="text" id="mobile" name="mobile" required>
+                    <div class="concent_section">
+                        <input type="checkbox" id="concent" name="consent" required>
+                        <p>
+                            I consent to the processing of my personal data and certify that I am over 15 years of age or, failing that, have the authorization of the holder of parental authority *
+                        </p>
+                    </div>
+                    <input type="submit" id="submit" value="ENVOYER">
+                    <div class="use">
+                        <p>
+                            INSEEC U is committed to ensuring that the collection and processing of your data carried out from this site complies with the General Data Protection Regulation (RGPD) and the Data Protection Act.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </form>
+
             </div>
         </section>
         <!-- <section class="part2">
