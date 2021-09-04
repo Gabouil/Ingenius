@@ -31,6 +31,7 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 article, aside, details, figcaption, figure, 
